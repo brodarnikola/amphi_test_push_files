@@ -1,0 +1,36 @@
+{
+  "name": "pipeline-editor",
+  "version": "1.0.0",
+  "description": "A JupyterLab extension for editing and managing data pipelines.",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest"
+  },
+  "keywords": [
+    "jupyterlab",
+    "pipeline",
+    "editor",
+    "octokit"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/rest": "^18.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-flow-renderer": "^10.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.4",
+    "jest": "^27.0.6",
+    "@types/jest": "^27.0.2",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.2"
+  },
+  "peerDependencies": {
+    "@jupyterlab/application": "^3.0.0",
+    "@jupyterlab/apputils": "^3.0.0"
+  }
+}
